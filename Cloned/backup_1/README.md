@@ -1,25 +1,3 @@
-# All India IIT & JEE TEST By Testbook
-
----
-
-    This is Landing page for test ( All india IIT - JEE TEST)
-
-    Used Programming languages are : 
-
-    Frontend : HTML, CSS, JAVASCRIPT 
-
-    Backend : PHP
-
----
-
-    SMS Auth on this landing page.
-
----
-
-    Database - Mysql (Using PHP)
-
----
-
 # All India IIT & JEE TEST Exam By Testbook
 
 
@@ -51,4 +29,5 @@
     API KEY OF WEB ENGAGE 
 
     78ac5485-3067-4403-bb13-b367becdea16
+
 

@@ -1,0 +1,226 @@
+/* General Styles */
+body {
+    background: linear-gradient(135deg, #1a1a3b, #512f5a); /* Updated Gradient Background */
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+}
+
+/* Logo Styling */
+.logo {
+    display: block;
+    margin: 30px auto;
+    width: 150px;
+    height: auto;
+}
+
+/* Tagline Styling */
+.tagline {
+    text-align: center;
+    font-size: 1rem;
+    font-weight: 600;
+    color: white;
+    margin-bottom: 30px;
+}
+
+.main-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 15px;
+    max-width: 1000px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+
+/* Image Container */
+.image-container {
+    width: 100%;
+    max-width: 500px;
+    margin-right: auto;
+}
+
+
+.image-container img {
+    width: 100%;
+    max-width: 500px;
+    margin-right: 20px; /* Increase this value to create more space */
+    border-radius: 10px;
+    border: 5px solid #ffffff; /* Border for the frame */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+}
+
+/* Control text size for heading */
+.features-list h3 {
+    font-size: 1.2rem; /* Adjust size as needed */
+    font-weight: 700;  /* Bold the heading */
+    margin-bottom: 20px; /* Space below the heading */
+}
+
+/* Control text size for list items */
+.custom-tick-list li {
+    font-size: 1rem; /* Adjust size as needed */
+    line-height: 1.6;  /* Adjust line height for better readability */
+}
+
+
+/* Custom Tick List */
+/* Custom Tick List */
+.custom-tick-list {
+    list-style: none; /* Remove default bullets */
+    padding-left: 0;  /* Remove padding */
+}
+
+.custom-tick-list li {
+    position: relative;
+    padding-left: 30px; /* Space for the tick icon */
+    margin-bottom: 10px; /* Spacing between list items */
+}
+
+.custom-tick-list li::before {
+    content: url('../img/green-tick.svg');
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 20px; /* Adjust size as needed */
+    height: 20px;
+}
+
+
+.form-container {
+    width: 45%;
+    display: flex;
+    align-items: flex-start;
+    margin-left: auto;
+    margin-right: -50px;
+}
+
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 15px;
+    padding: 30px;
+    width: 100%;
+    max-width: 450px; /* Reduced max-width to make the form smaller */
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    border: 2px solid transparent;
+    background-image: linear-gradient(white, white), /* Background color */
+                      linear-gradient(135deg, #ff9a9e, #fad0c4, #fad0c4, #fbc2eb, #a18cd1); /* Shiny gradient border */
+    background-origin: border-box;
+    background-clip: content-box, border-box;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+
+
+
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 15px;
+    padding: 30px;
+    width: 100%;
+    max-width: 500px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+.card-title {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+
+.btn-custom {
+    background-color: #28a745 !important;
+    border-color: #28a745 !important;
+    border-radius: 8px !important;
+    padding: 10px 16px !important; /* Reduce padding for a smaller button */
+    font-size: 1rem !important; /* Reduce font size */
+    color: #fff !important;
+    font-weight: 600 !important;
+    transition: background 0.3s ease, transform 0.3s ease !important;
+}
+
+.btn-custom:hover {
+    background-color: #218838 !important;
+    border-color: #1e7e34 !important;
+    transform: scale(1.05) !important;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2) !important;
+}
+
+
+.card {
+    background-color: #fff;
+    color: #333;
+    border-radius: 15px;
+    padding: 20px; /* Reduce padding to make the card smaller */
+    width: 100%;
+    max-width: 400px; /* Reduce max-width for a smaller card */
+    box-shadow: 0 6px 15px rgba(0, 0, 0, 0.1); /* Adjust shadow to match smaller size */
+}
+
+.card-title {
+    font-size: 1rem; /* Reduce font size for the title */
+    margin-bottom: 10px; /* Adjust spacing */
+    font-weight: 700;
+    text-align: center;
+}
+
+.active-users {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px; /* Reduce margin */
+}
+
+.active-users img {
+    margin-right: 8px; /* Slightly reduce space between the image and text */
+    width: 30px; /* Make the icon smaller */
+    height: auto;
+}
+
+.active-users span {
+    font-size: 0.9rem; /* Reduce font size */
+    font-weight: 600;
+    color: #333;
+}
+
+
+
+
+/* Responsive Adjustments for Smaller Screens (Tablets and Phones) */
+@media (max-width: 768px) {
+    .main-content {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px 10px; /* Reduce padding for smaller screens */
+    }
+
+
+    
+
+    .form-container {
+        width: 100%; /* Make the form wider */
+        margin-left: auto;
+        margin-right: auto; /* Center the form on the screen */
+        padding: 0 15px; /* Add padding to the sides */
+    }
+}
+
+
+
+
+@media (max-width: 768px) {
+    .form-container {
+        width: 90%; /* Increase width for very small screens */
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0 20px; /* Add more side padding for comfort */
+    }
+}

@@ -1,0 +1,78 @@
+body {
+    background: linear-gradient(135deg, #1a1a3b, #512f5a);
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+    padding: 15px;
+    box-sizing: border-box;
+}
+
+.thank-you-container {
+    background-color: #ffffff;
+    color: #333;
+    border-radius: 15px;
+    padding: 40px;
+    max-width: 800px;
+    width: 100%;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.2);
+    animation: fadeIn 1s ease-in-out;
+    box-sizing: border-box;
+}
+
+.thank-you-container img {
+    width: 90px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.thank-you-container h1 {
+    font-size: 2rem;
+    font-weight: 700;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.thank-you-details {
+    font-size: 1rem;
+    margin-bottom: 30px;
+    color: #333;
+    line-height: 1.6;
+    text-align: center; /* Center the details text */
+}
+
+.thank-you-details p {
+    margin: 10px 0;
+}
+
+.thank-you-details span {
+    font-weight: 600;
+}
+
+.thank-you-container a {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 12px 25px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-size: 1.1rem;
+    font-weight: 600;
+    transition: background 0.3s ease, transform 0.3s ease;
+    margin-top: 20px;
+}
+
+.thank-you-container a:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+@keyframes fadeIn {
+    from { opacity: 0; }
+    to { opacity: 1; }
+}
