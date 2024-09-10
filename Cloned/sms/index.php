@@ -131,7 +131,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!-- Replace with your logo path -->
 
 <!-- Tagline -->
-<h2 class="tagline">Crack UPSC CSE 2024 in 1st attempt with India's Top Coaching</h2>
+<h2 class="tagline">Crack JEE Main 2025 with Testbook’s LIVE AIR Test and Win 100% Scholarships</h2>
 
 <!-- Main Content -->
 <div class="main-content container">
@@ -139,20 +139,17 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 <!-- Left Side Image and List -->
 <div class="col-md-6">
 <div class="image-container">
-<img src="./img/test.jpg" alt="UPSC 2024" class="img-fluid">
+<img src="./img/itt-jee-by-testbook.png" alt="All India IIT & JEET Live Test By Testbook." class="img-fluid">
 <!-- Replace with your image path -->
 </div>
 
 <!-- New Section Below Image -->
 <div class="features-list mt-4">
-<h3 class="text-white">How Supercoaching can help for your UPSC Preparation?</h3>
+<h3 class="text-white">Why Should You Register Now?</h3>
 <ul class="custom-tick-list text-white">
-<li>All-in-One Coaching for UPSC CSE: Prelims, Mains, and Interview.</li>
-<li>Dedicated NCERT foundation courses to strengthen your basics.</li>
-<li>Access to 40+ UPSC courses, 1000+ Live Classes, 550+ Mock Tests, 500+ Study Notes, and 2500+
-Practice Questions.</li>
-<li>Extensive coverage of Environment, Science and Technology, and Geography (~40% weightage).
-</li>
+<li><b>Experience the Real Exam:</b> Get a first-hand feel of the actual JEE Main exam with a test designed to replicate the real thing. Practice in a real exam-like interface and perfect your timing.</li>
+<li><b>Know Your All India Rank:</b> Compete with thousands of students across India and get detailed insights into your All India Rank—pinpoint where you stand among your peers.</li>
+<li><b>Win Big with 100% Scholarships:</b> This isn’t just practice—top performers in the test will win 100% scholarships to boost their preparation and take the next step toward IIT success!</li>
 </ul>
 </div>
 </div>
@@ -161,8 +158,9 @@ Practice Questions.</li>
 <div class="form-container">
 <div class="card">
 <h3 class="card-title">
-<center>All India IIT - JEE Test</center>
+<center>All India IIT - JEE Live Test</center>
 </h3>
+<hr>
 <div class="active-users">
 <img src="./img/usersBubble.svg" alt="Active Users">
 <span>10000 + Active Users</span>
